@@ -1,3 +1,5 @@
+#https://www.reddit.com/r/dailyprogrammer/comments/bazy5j/20190408_challenge_377_easy_axisaligned_crate/
+
 def main():
     print(fit1(5, 100, 6, 1))
     print(fit2(5, 5, 6, 1))
