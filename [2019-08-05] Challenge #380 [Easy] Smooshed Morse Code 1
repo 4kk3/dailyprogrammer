@@ -1,0 +1,13 @@
+import string
+
+def smorse(ordattkonvertera):
+    morsealfabet = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --.."
+    konverteratord = ""
+    morsealfabetlista = morsealfabet.split()
+    ordattkonverteralista = list(ordattkonvertera)
+    for i in range (len(ordattkonverteralista)):
+        konverteratord += morsealfabetlista[string.ascii_lowercase.index(ordattkonverteralista[i])]
+    return konverteratord
+
+def main():
+    print(smorse("sos"))
